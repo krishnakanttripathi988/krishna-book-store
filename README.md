@@ -1,8 +1,9 @@
 #  Inventory 
 
-A web portal implemented using Python/Django(MVT structure).
+This is a web app made by using django-python framework.
 
-It contains the list of books in store and contains information about its copies and book info link provided by Google Book Api. Anybody can access it, there is no need to login or authenticate(for now).
+In this web app user can search for a books by entering the name of the book and from there they will get the link of the book and after getting the link if they want to store the book in the database they can store it by pressing inventory button present at the homescreen and pasting the url of the book.
+At the backend only necessary thing is the id of that particular book.
 
 ** Features **
 * User can add a book or also copy of a existing book to the bookstore.
@@ -22,18 +23,19 @@ It contains the list of books in store and contains information about its copies
   * Delete and Edit options are only for the books that are in the inventory.
   
  ** Installation and Running the server **
- * Create a virtual environment.
- * git clone https://github.com/Manikaran20/Books-Inventory.git
+ * Create a virtual environment using python -m venv env {here env is the name of our virtual environment}
+ * git clone https://github.com/krishnakanttripathi988/krishna-book-store.git
  
 ** Install Requirements **
+  * change the directory to the root of bookinventory(where manage.py is present)
   * pip install -r requirements.txt
-  * python3 manage.py makemigrations
-  * python3 manage.py migrate
+  * python manage.py makemigrations
+  * python manage.py migrate
 ** Running the server **
- * python manage.py runserver
- your app will be running on  [locally here!](http://127.0.0.1:8000/)
+ * python manage.py runserver {make sure you have installed postgresql and the user and password in the settings.py is okay}
+ your app will be running on localhost:8000
     
- [Live app on heroku](https://limitless-ravine-32971.herokuapp.com/googlebooks/)
+ [Live app on heroku](https://krishna-bookinventory.herokuapp.com/inventory/)
   
 
  
