@@ -36,6 +36,7 @@ At the backend only necessary thing is the id of that particular book.
  your app will be running on localhost:8000
     
  [Live app on heroku](https://krishna-bookinventory.herokuapp.com/inventory/)
+ You have to add "/inventory" route at the last of the url to process routes of heoku hooks
   
 
  
