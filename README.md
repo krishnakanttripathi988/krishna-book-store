@@ -15,10 +15,18 @@ At the backend only necessary thing is the id of that particular book.
   * A search box which shows the books with the help of Google Book Api for the given query.
   
   * Searched books have text on their bottom, weather it is already exist in bookstore or not.
+
+** Reasons behind the implementation **
+* with the help of this web app user can track the list of books they are interested to read in future.
+
+** Prerequisite **
+* a system or a server to host the web-app
+* Python 3 or later versions
+* heroku CLI for hosting it on heroku
   
  ** Assumptions **
  
-  *Added some books with popular keywords to the inventory using Google book API with a script(base_script.py)
+  * Added some books with popular keywords to the inventory using Google book API with a script(base_script.py)
   
   * Delete and Edit options are only for the books that are in the inventory.
   
@@ -35,8 +43,11 @@ At the backend only necessary thing is the id of that particular book.
  * python manage.py runserver {make sure you have installed postgresql and the user and password in the settings.py is okay}
  your app will be running on localhost:8000
     
- [Live app on heroku](https://krishna-bookinventory.herokuapp.com/inventory/)
+ [Deployed code on Heroku](https://krishna-bookinventory.herokuapp.com/inventory/)
  You have to add "/inventory" route at the last of the url to process routes of heoku hooks
+ 
+ 
+For Detailed explaination contact me on [Linkedin](https://www.linkedin.com/in/tripathikrishna/)
   
 
  
