@@ -80,11 +80,7 @@ WSGI_APPLICATION = 'bookInventory.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1mnnt9i2doqpk',
-        'USER': 'qkczlmogdcuebs',
-        'PASSWORD': 'b0714cb4476011b43b357d306dec2f87d4eed0ca69213b4382a5ac028b86d411',
-        'HOST': 'ec2-18-215-96-22.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
